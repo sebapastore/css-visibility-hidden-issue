@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Test 1</title>
+    <style>
+      .invisible {
+        visibility: hidden;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+        <div class="invisible">
+          <div style="height: 1000px;">
+            <h1>Header</h1> 
+              <p>Scroll down to see the footer...</p>                     
+          </div>
+      </div> 
+      <div>
+        <div style="height: 200px; background: #A00;">
+          <h1>Footer</h1>
+            <p>This is not working as expected. You shouldn't be able to scroll down beyond the red container...</p>
+        </div>
+      </div> 
+    </main>
+  </body>
+</html>
